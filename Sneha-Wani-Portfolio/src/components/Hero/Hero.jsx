@@ -2,11 +2,12 @@ import React from "react";
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
 
+import Resume from '/images/sneha-resume.pdf'
 export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I'm Sneha </h1>
+        <h1 className={styles.title}>Hi, I'm Sneha Wani </h1>
         <p className={styles.description}>
         Hi, I'm a Full Stack Web Developer just starting my journey in the field. 
         I'm passionate about building both the front-end and back-end of web applications.
@@ -18,7 +19,11 @@ export const Hero = () => {
           <a href="mailto:snehawani4321@gmail.com" className={styles.contactBtn}>
             Contact Me
           </a>
-          <a href="Sneha-Wani.pdf" className={styles.downloadBtn} download class="download-cv">
+          <a
+            href={Resume}
+            className={`${styles.contactBtn} `}
+            download="Resume"
+          >
             Download CV
           </a>
         </div>

@@ -33,6 +33,22 @@
     "description":"My portfolio showcases my best work, highlighting my skills and projects in web development and design.",
     "skills": ["HTML", "CSS", "JS","REACT"],
     "source": "https://github.com/sneha9504/Sneha-Wani-Portfolio"
+  },
+  {
+    "title": "ToDo-List Application",
+    "imageSrc": "todo.png",
+    "description":"A To-Do List application helps users manage and track tasks efficiently for better productivity.",
+    "skills": ["HTML", "CSS", "JS","Full Stack"],
+    "source": "https://github.com/sneha9504/Full-Stack-Todo-Application.git"
+    
+  },
+  {
+    "title": "User-Authentication Application",
+    "imageSrc": "authentication.png",
+    "description":"User authentication is the process of verifying a user's identity using credentials like email, username, password, or OTP to grant secure access to an application.",
+    "skills": ["HTML", "CSS", "JS","Full Stack"],
+    "source": "https://github.com/sneha9504/Authentication.git"
+    
   }
 
 ]
